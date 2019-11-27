@@ -9,6 +9,10 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+main{
+    padding-bottom: 80px;
+}
+
 main h1 {
 	text-align: center;
 	background-color: #851944;
@@ -17,6 +21,7 @@ main h1 {
 	border-bottom: 10px solid black;
 	font-size: 60px;
     text-transform: uppercase;
+    padding-bottom:80px;
 }
 
 p {
@@ -68,9 +73,12 @@ main div {
 }
 
 aside {
+    position: relative;
 	text-align: center;
+    float: right;
+
 }
-.incones-sociais{
+.incon{
     display: inline-block;
 }
 sociais-rodape{
@@ -92,4 +100,28 @@ em {
 h2 {
 	font-size: 30px;
     clear:right;
+}
+
+cite{
+    font-style: italic;
+    float: right;
+}
+
+.subtitulo-texto{
+    clear: both;
+
+}
+
+img{
+    position: absolute;
+    width: 300px;
+    top:0;
+    left:1180px;
+}
+
+.rodape-pagina{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
